@@ -4,12 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Växel Pogram</title>
 </head>
 <body>
     
+    <h1> ≈ Växelprogram ≈</h1>
+    <header>
 
+    <div>
+        <input class="form-control"  type="number" id="customerPay" name="customerPay" value="" placeholder="Kunden betalar">
+        <input class="form-control"  type="number" id="productsPrice" name="productsPrice" value="" placeholder="Produkt Pris">
+        <button onclick="changeProgram()" class="btn btn-warning">Räkna</button>  
+        <output class="form-control"   id="result"> Får tillbaka
+    </div>    
+    
+</header>
+
+    <br>
+    <section>
+         
+             <div><h5>Tusenlappar:</h5> <p id="thousand"></p> </div>
+             <hr>
+             <div><h5>Femhunralappar: </h5> <p id="fiveHundred"></p></div>
+             <hr>
+             <div><h5>Tvåhundralappa:</h5> <p id="twoHundred"></p></div>
+             <hr>
+             <div> <h5>Hundralappar:</h5><p id="oneHundred"></p></div>
+             <hr>
+             <div> <h5>Femtiolappar:</h5> <p id="fifty"></p></div>
+             <hr>
+             <div><h5>Tjugolappar:</h5> <p id="twenty"></p></div>
+             <hr>
+             <div><h5>Femkronor:</h5> <p id="five"></p></div>
+             <hr>
+             <div><h5>Tvåkronor:</h5> <p id="two"></p></div>
+             <hr>
+             <div><h5> Enkrona:</h5> <p id="one"></p></div>
+             <hr>
+    </section>
 
 
 
