@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+   margin: 0; 
+   background-color: darkgrey;
+   color: black;
+}
+
+div{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 50%;
+}
+section{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+header{
+display: flex;
+justify-content: center;
+}
+h1{
+text-align: center;
+text-transform: uppercase;
+}
+
+hr{
+width: 100%;
+}
+h5{
+font-size: 15px;
+}
+.form-control{
+margin: 5px;
+background: cornsilk;
+}
